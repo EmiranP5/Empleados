@@ -5,10 +5,7 @@ package docente;
   import java.sql.SQLException;
   import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author felix
- */
+
 
    public class docente extends persona {
     conexion cn;
@@ -16,7 +13,7 @@ package docente;
     private int id;
 
     public docente() {}
-    // Nuevo constructor que incluye el id
+
     public docente(int id, String codigo, String nit, String nombres, String apellidos, String direccion, String telefono, String fecha_nacimiento, String salario, String fecha_ingreso, String fecha_registro) {
         super(nit, nombres, apellidos, direccion, telefono, fecha_nacimiento);
         this.id = id;
@@ -78,7 +75,7 @@ package docente;
         return tabla;
     }
 
-    // Método para agregar un registro
+
     public void agregar() {
         try {
             PreparedStatement parametro;
@@ -104,7 +101,7 @@ package docente;
         }
     }
 
-    // Método para actualizar un registro
+ 
     public void actualizar() {
         try {
             PreparedStatement parametro;
@@ -131,7 +128,6 @@ package docente;
         }
     }
 
-    // Método para eliminar un registro
     public void borrar() {
         try {
             PreparedStatement parametro;
