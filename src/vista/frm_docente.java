@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package vista;
 
 import docente.conexion;
@@ -9,15 +6,10 @@ import docente.docente;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author felix
- */
+
 public class frm_docente extends javax.swing.JFrame {
 
-    /**
-     * Creates new form frm_docente
-     */
+
     docente obj_docente;
     public frm_docente() {
         initComponents();
